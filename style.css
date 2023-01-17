@@ -106,3 +106,7 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     height: 100%;
     backdrop-filter: blur(10px);
 }
+
+.to-be-added{
+    text-decoration: line-through;
+}
