@@ -12,7 +12,7 @@ document.addEventListener("mousemove", parallax);
         return Math.floor(Math.random() * max);
       }
 const bgs = [];
-bgs.push("media/LushCave.webp", "media/IceCave.webp")
+bgs.push("media/LushCave.webp", "media/IceCave.webp","media/LavaCave.webp")
 document.getElementById("bg").style.backgroundImage = "linear-gradient(#00000000,#000000FF),url("+bgs[getRandomInt(bgs.length)]+")";
 
 const onKonami = (action, seq = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]) => {
