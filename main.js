@@ -27,7 +27,7 @@ const onKonami = (action, seq = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]) => {
 var audio = new Audio('media/music.mp3');
 
 onKonami (
-  (seq) => {
+  () => {
     console.log("test");
     audio.play();
   }
