@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'AireExterior';
+    src: url('media/AireExterior.ttf');
+}
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'AireExterior';
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #000000;
+}
+.header{
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #2db1da;
+    font-size:6vh;
+}
+.bot{
+    
+    width: 30vw;
+
+    
+}
+.image-holder{
+    background: linear-gradient(#00000000,#000000FF),url("media/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+}
+.download{
+    color: white;
+    font-size: 2vw;
+    border-style: none;
+    color: #000000;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 15vw;
+    height: calc(15vw/2.2159);
+    line-height: 1.5;
+    background-image: url("media/Button\ Short\ FillA.png");
+    background-size: cover;
+    display: flex;
+    margin: auto;
+}
+.download:hover{
+    background-image: url("media/Button\ Short\ FillB.png");
+    transform: scale(1.25);
+    transition: 100ms;
+}
+.download:active{
+    background-image: url("media/Button\ Short\ FillC.png");
+    transform: scale(0.75);
+    transition: 100ms;
+}
+.download-zone{
+    width: 100%;
+    height: auto;
+    margin: -10vw 0;
+}
+.button-text{
+     color: white;
+    margin: auto;
+}
+.nav-panel{
+    background-color:#E3D23E ;
+
+}
+.nav-panel-spacing{
+    justify-content:space-evenly;
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.nav-button{
+    background-color: #00000000;
+    border: none;
+    font-size: large;
+    padding: 2vh;
+    transition: 250ms;
+}
+.nav-button:hover{
+    background-color: #B6FFFE;
+    -webkit-box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
+box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
+}
+.separator{
+    background-color:#4C5869 ;
+    width: 100%;
+    height: 0.5vh;
+}
