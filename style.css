@@ -19,13 +19,9 @@ body{
     padding: 10px;
     text-align: center;
     font-size:6vh;
-
 }
 .bot{
-    
     width: 50vh;
-
-    
 }
 .image-holder{
     background: linear-gradient(#00000000,#000000FF),url("media/bg.jpg");
