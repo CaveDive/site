@@ -8,3 +8,10 @@ document.addEventListener("mousemove", parallax);
           shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
         });
       }
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+      }
+const bgs = [];
+bgs.push("media/LushCave.webp", "media/IceCave.webp")
+document.getElementById("bg").style.backgroundImage = "linear-gradient(#00000000,#000000FF),url("+bgs[getRandomInt(bgs.length)]+")";
+      

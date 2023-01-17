@@ -14,16 +14,16 @@ body{
     background-color: #000000;
 }
 .header{
-    width: auto;
+    width: 50vh;
     margin: 0;
     padding: 10px;
     text-align: center;
-    background-color: #2db1da;
     font-size:6vh;
+
 }
 .bot{
     
-    width: 30vw;
+    width: 50vh;
 
     
 }
@@ -32,22 +32,24 @@ body{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 40vw;
+    height: 80vh;
+
 }
 .download{
     color: white;
-    font-size: 2vw;
+    font-size: 5vh;
     border-style: none;
     color: #000000;
     text-decoration: none;
     vertical-align: middle;
-    width: 15vw;
-    height: calc(15vw/2.2159);
+    width: 30vh;
+    height: calc(30vh/2.2159);
     line-height: 1.5;
     background-image: url("media/Button\ Short\ FillA.png");
     background-size: cover;
     display: flex;
     margin: auto;
+    z-index:100;
 }
 .download:hover{
     background-image: url("media/Button\ Short\ FillB.png");
@@ -62,7 +64,9 @@ body{
 .download-zone{
     width: 100%;
     height: auto;
-    margin: -10vw 0;
+    margin: -20vh 0;
+    z-index: 100;
+    position:relative
 }
 .button-text{
      color: white;
@@ -75,7 +79,7 @@ body{
 .nav-panel-spacing{
     justify-content:space-evenly;
     display: flex;
-    width: 60%;
+    width: 75%;
     margin: auto;
 }
 .nav-button{
@@ -86,13 +90,19 @@ body{
     transition: 250ms;
 }
 .nav-button:hover{
-    background-color: #B6FFFE;
+    background-color: #337776;
     -webkit-box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
+    color: rgb(167, 167, 167);
 }
 .separator{
     background-color:#4C5869 ;
     width: 100%;
     height: 0.5vh;
+}
+.image-blur{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
 }
