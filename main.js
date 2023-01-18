@@ -10,7 +10,7 @@ function parallax(event) {
 }
 
 
-j=false;
+j=true;
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }     
