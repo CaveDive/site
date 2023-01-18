@@ -128,7 +128,7 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 }
 
 .to-be-added{
-    text-decoration: none;
+    text-decoration: line-through;
 }
 .about-zone{
     background-color: red;
@@ -137,4 +137,12 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 .about-header{
     padding: 1vh;
     font-size: 5vh;
+}
+@media (max-width: 100vh) {
+    .about-zone{
+        margin: 80vh 0 0 0;
+    }
+    .download-zone{
+        margin: -40vh 0;
+    }
 }

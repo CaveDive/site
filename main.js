@@ -10,7 +10,7 @@ function parallax(event) {
 }
 
 
-j=true;
+j=false;
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }     
@@ -27,9 +27,7 @@ window.addEventListener('deviceorientation',function(e){
   document.getElementsByClassName('nav-button')[0].innerText = "X-Axis = " + x;
   document.getElementsByClassName('nav-button')[1].innerText = "Y-Axis = " + y;
   document.getElementsByClassName('nav-button')[2].innerText = "Z-Axis = " + z;
-
-  //Parallax Effect
-
+  
   document.getElementsByClassName('bot')[0].style.transform = `translateX(${y}px) translateY(${-x}px)`;
   }
 });
