@@ -128,7 +128,7 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 }
 
 .to-be-added{
-    text-decoration: line-through;
+    text-decoration: none;
 }
 .about-zone{
     background-color: red;
