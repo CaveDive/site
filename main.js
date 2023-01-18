@@ -28,8 +28,8 @@ window.addEventListener('deviceorientation',function(e){
   document.getElementsByClassName('nav-button')[1].innerText = "Y-Axis = " + y;
   document.getElementsByClassName('nav-button')[2].innerText = "Z-Axis = " + z;
   
-  document.getElementsByClassName('bot')[0].style.transform = `translateX(${y}px) translateY(${-x}px)`;
   }
+  document.getElementsByClassName('bot')[0].style.transform = `translateX(${y}px) translateY(${-x}px)`;
 });
 
 
