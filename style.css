@@ -19,11 +19,15 @@ body{
     padding: 10px;
     text-align: center;
     font-size:6vh;
-    z-index:100;
 
 }
 .bot{
-    width: 50vh;
+    width: 50vw;
+}
+@media (min-width: 100vh) {
+    .bot{
+        width: 50vh;
+    }
 }
 .image-holder{
     background: linear-gradient(#00000000,#000000FF),url("media/bg.jpg");
@@ -47,6 +51,7 @@ body{
     display: flex;
     margin: auto;
     z-index:100;
+
 }
 .download:hover{
     background-image: url("media/Button\ Short\ FillB.png");
@@ -93,6 +98,24 @@ body{
 box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     color: rgb(167, 167, 167);
 }
+.nav-button:active{
+    background-color: #E3D23E;
+    -webkit-box-shadow: 10px 10px 25px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 25px 5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 25px 5px rgba(0,0,0,0.75);
+    color: black;
+}
+
+@media (max-width: 100vh) {
+    .nav-panel-spacing{
+        justify-content:space-evenly;
+        display: grid;
+        width: 75%;
+        margin: auto;
+    }
+}
+
+
 .separator{
     background-color:#4C5869 ;
     width: 100%;
@@ -106,4 +129,12 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 
 .to-be-added{
     text-decoration: line-through;
+}
+.about-zone{
+    background-color: red;
+    margin: 40vh 0;
+}
+.about-header{
+    padding: 1vh;
+    font-size: 5vh;
 }
