@@ -19,8 +19,8 @@ bgs.push("media/LushCave.webp", "media/IceCave.webp","media/LavaCave.webp")
 document.getElementById("bg").style.backgroundImage = "linear-gradient(#00000000,#000000FF),url("+bgs[getRandomInt(bgs.length)]+")";
 
 window.addEventListener('deviceorientation',function(e){
-  const x = -e.beta;
-  const y = -e.gamma;
+  const x = e.beta;
+  const y = e.gamma;
   const z = e.alpha;
 
   if(j){
@@ -30,7 +30,7 @@ window.addEventListener('deviceorientation',function(e){
 
   //Parallax Effect
 
-  document.getElementsByClassName('bot')[0].style.transform = `translateX(${x}px) translateY(${y}px)`;
+  document.getElementsByClassName('bot')[0].style.transform = `translateX(${y}px) translateY(${-x}px)`;
   }
 });
 
