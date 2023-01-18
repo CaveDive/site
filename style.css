@@ -19,6 +19,8 @@ body{
     padding: 10px;
     text-align: center;
     font-size:6vh;
+    z-index:100;
+
 }
 .bot{
     width: 50vh;
