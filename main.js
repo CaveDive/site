@@ -19,9 +19,9 @@ bgs.push("media/LushCave.webp", "media/IceCave.webp","media/LavaCave.webp")
 document.getElementById("bg").style.backgroundImage = "linear-gradient(#00000000,#000000FF),url("+bgs[getRandomInt(bgs.length)]+")";
 
 window.addEventListener('deviceorientation',function(e){
-  const x = e.beta;
-  const y = e.gamma;
-  const z = e.alpha;
+  const x = Math.round(e.beta);
+  const y = Math.round(e.gamma);
+  const z = Math.round(e.alpha);
 
   if(j){
   document.getElementsByClassName('nav-button')[0].innerText = "X-Axis = " + x;
