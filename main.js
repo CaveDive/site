@@ -30,7 +30,7 @@ window.addEventListener('deviceorientation',function(e){
 
   //Parallax Effect
 
-  document.getElementsByClassName('bot')[0].style.transform = `translateX(${y}px) translateY(${x}px)`;
+  document.getElementsByClassName('bot')[0].style.transform = `translateX(${x}px) translateY(${y}px)`;
   }
 });
 
