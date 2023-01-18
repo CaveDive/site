@@ -76,7 +76,6 @@ body{
 }
 .nav-panel{
     background-color:#E3D23E ;
-
 }
 .nav-panel-spacing{
     justify-content:space-evenly;
@@ -112,6 +111,13 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
         display: grid;
         width: 75%;
         margin: auto;
+    }
+    .nav-button{
+        background-color: #00000000;
+        border: none;
+        font-size: large;
+        padding: 0.5vh;
+        transition: 250ms;
     }
 }
 
