@@ -5,7 +5,7 @@ function parallax(event) {
     const x = (window.innerWidth - event.pageX * position) / 90+window.innerWidth*0.1/2;
     const y = (window.innerHeight - event.pageY * position) / 90+window.innerHeight*0.10/2;
 
-    shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
+    shift.style.transform = `translateX(${x}px) translateY(${y+40}px)`;
   });
 }
 

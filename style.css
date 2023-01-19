@@ -194,7 +194,9 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 }
 @media (max-width: 110vh) {
     .version-card{
-        width: 80vw;
+        width: 60vw;
+        border-radius: 5vw;
+        height: 120vw;
     }
 }
 .version-title{
