@@ -147,7 +147,7 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     text-decoration: line-through;
 }
 .about-zone{
-    margin: 40vh auto;
+    margin: 40vh auto auto auto;
     color: white;
     font-size: 3vh;
     width: 90vh;
@@ -166,4 +166,53 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     .download-zone{
         margin: -30vh 0;
     }
+}
+.change-log-zone{
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    
+}
+.card-holder{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -5vh;
+}
+.version-card{
+    width: 40vw;
+    height: 30vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: black;
+    color: white;
+    border-radius: 3vh ;
+    padding: 5vh;
+    text-align: left;
+    overflow:auto;
+}
+.version-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}
+.version-name{
+    float: left;
+    font-size: 5vh;
+}
+.version-date{
+    float: right;
+    font-size: 3vh;
+    color: #bbb;;
+}
+.list-item{
+    margin-bottom: 2.5vh;
+    font-size: 2.5vh;
+}
+.version-header{
+    padding: 1vh;
+    font-size: 5vh;
+    padding-top: 5vh;
+    color: white;
 }
