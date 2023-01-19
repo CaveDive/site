@@ -219,7 +219,7 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     padding: 1vh;
     font-size: 5vh;
     padding-top: 5vh;
-    color: white;
+    color: black;
 }
 * {
     scrollbar-width: auto;
