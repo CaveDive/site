@@ -176,9 +176,9 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 .card-holder{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: -5vh;
+    margin-top: 5vh;
 }
 .version-card{
     width: 40vw;
@@ -187,10 +187,15 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     margin-bottom: 5vh;
     background-color: black;
     color: white;
-    border-radius: 3vh ;
+    border-radius: 3vh;
     padding: 5vh;
     text-align: left;
     overflow:auto;
+}
+@media (max-width: 110vh) {
+    .version-card{
+        width: 80vw;
+    }
 }
 .version-title{
     display: flex;
@@ -216,3 +221,25 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     padding-top: 5vh;
     color: white;
 }
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #2d2d2d #000000;
+  }
+
+  *::-webkit-scrollbar {
+    
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2d2d2d;
+    border-radius: 6px;
+    border: 3px none #2d2d2d;
+    background-clip: content-box;
+  }
