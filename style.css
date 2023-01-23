@@ -168,7 +168,7 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     }
 }
 .change-log-zone{
-    background-color: blue;
+    background-color: #1DA6D5;
     width: 100%;
     height: auto;
     
@@ -194,7 +194,9 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 }
 @media (max-width: 110vh) {
     .version-card{
-        width: 80vw;
+        width: 60vw;
+        border-radius: 5vw;
+        height: 120vw;
     }
 }
 .version-title{
@@ -219,7 +221,7 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     padding: 1vh;
     font-size: 5vh;
     padding-top: 5vh;
-    color: white;
+    color: black;
 }
 * {
     scrollbar-width: auto;

@@ -19,7 +19,7 @@ bgs.push("media/LushCave.webp", "media/IceCave.webp","media/LavaCave.webp")
 document.getElementById("bg").style.backgroundImage = "linear-gradient(#00000000,#000000FF),url("+bgs[getRandomInt(bgs.length)]+")";
 
 window.addEventListener('deviceorientation',function(e){
-  const x = Math.round(e.beta);
+  const x = Math.round(e.beta)-60;
   const y = -Math.round(e.gamma);
   const z = Math.round(e.alpha);
 
