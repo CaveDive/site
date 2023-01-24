@@ -245,3 +245,7 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     border: 3px none #2d2d2d;
     background-clip: content-box;
   }
+  .footer{
+    width: 100%;
+    height: 30vh;
+  }
