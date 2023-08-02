@@ -47,6 +47,10 @@ a, button {
     height: 80vh;
 
 }
+.screenshot{
+    width: 100%;
+    height: 20%;
+}
 .download{
     color: white;
     font-size: 5vh;
