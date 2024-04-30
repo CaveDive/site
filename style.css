@@ -85,7 +85,7 @@ a, button {
     position:relative
 }
 .button-text{
-     color: white;
+    color: white;
     margin: auto;
 }
 .nav-panel{
@@ -107,8 +107,8 @@ a, button {
 .nav-button:hover{
     background-color: #337776;
     -webkit-box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
--moz-box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
-box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     color: rgb(167, 167, 167);
 }
 .nav-button:active{
@@ -151,11 +151,10 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
     text-decoration: line-through;
 }
 .about-zone{
-    margin: 40vh auto auto auto;
+    margin: 40vh auto auto;
     color: white;
     font-size: 3vh;
     width: 90vh;
-    
 }
 .about-header{
     padding: 1vh;
@@ -163,9 +162,8 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 }
 @media (max-width: 100vh) {
     .about-zone{
-        margin: 60vh auto auto auto;
+        margin: 60vh auto auto;
         width: 90%;
-
     }
     .download-zone{
         margin: -30vh 0;
